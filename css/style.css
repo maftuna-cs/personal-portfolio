@@ -23,6 +23,7 @@ h4 {
   height: 80px;
   background: #575d6d;
   padding: 30px;
+  padding-top: 1em;
   color: #92A2D0;
   margin-bottom: 3em;
   background: rgba(255,255,255,0);
@@ -76,7 +77,7 @@ h4 {
 
 .content {
     position: absolute;
-    top: 30%;
+    top: 35%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     height: 160px;
@@ -161,6 +162,169 @@ h4 {
     margin: 0;
   }
   
+  /* ************** A B O U T *********** */
+
+  /* .about-body {
+      background: #f6cebe;
+  } */
+
+  .about-title {
+    text-align: center;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-top: 5em;
+    font-size: 3em;
+    font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 300;
+
+  }
+
+  .about-wrapper {
+    margin-bottom: 20rem;
+    position: relative;
+    z-index: 200;
+  }
+
+
+  /* .about-me {
+    margin-top: 20rem;
+  } */
+
+  .about-txt {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* padding-left: 138px; */
+    margin-top: 14.4rem;
+    webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .about-text, .about-num {
+    position: absolute;
+    left: 0;
+  }
+
+  .about-num {
+    font-size: 4rem;
+    color: #ff4d5a;
+    position: relative;
+    padding-left: 6.2rem;
+    padding-right: 3.2rem;
+    font-family: "Abril Fatface";
+    line-height: 1.1;
+  }
+
+  .about-num::after {
+    content: "";
+    width: 4.8rem;
+    height: 2px;
+    background: #020b16;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto
+  }
+
+  .about-num p {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .about-txt-top {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .about-txt-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* align-items: center;
+    padding-right: 10%; */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-cntd {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-heading {
+    font-size: 4rem;
+    color: #072142;
+    letter-spacing: 0.2em;
+    font-family: "futura_m";
+    margin-right: 3.2rem;
+    padding-top: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .about-heading-top {
+    padding-top: 0;
+  }
+
+  .who-wrap {
+    width: 48.333%;
+  }
+
+  .who-name {
+    color: #072142;
+    margin-bottom: 2.4rem;
+  }
+
+  .who-jp {
+    font-size: 2.4rem;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+  }
+
+  .who-en {
+    font-size: 1.8rem;
+    letter-spacing: 0.2em;
+    font-family: "futura_de";
+    line-height: 1.3;
+  }
+
+  .who-text {
+    margin-bottom: 6.4rem;
+  }
+
+  .who-image {
+    -webkit-box-shadow: 0px 63px 154px -20px rgba(7, 33, 66, 0.5);
+    box-shadow: 0px 63px 154px -20px rgba(7, 33, 66, 0.5);
+  }
+
+ 
+  
+
+
+
+
+
+
+
+
   @-webkit-keyframes opacity {
     0%, 100% {
       opacity: 0;
